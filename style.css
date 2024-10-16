@@ -1,0 +1,217 @@
+/* mobile */
+
+@media screen and (max-width: 720px) and (max-width: 1024px) {
+    body {
+        background-size: 1220px;
+        background-repeat: no-repeat
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Helvetica, sans-serif;
+    }
+    nav {
+        background-color: grey;
+    
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        transition: 1s;
+        background-color: snow;
+    }
+    nav li a:hover{
+        background-color: red;
+    
+        transition: 1.5s;
+    }
+    .menu {
+        position: absolute;
+        box-shadow: 0 0 2px;
+        display: none;
+        transition: 1s;
+    }
+    .menu a{
+        display: block;
+        color: black;
+        transition: 0.5s;
+    }
+    .menu a:hover{
+        transition: 0.5s;
+        color: white;
+    }
+    .dropdown:hover .menu {
+        display: block;
+        transition: 1s;
+    }
+    .dropdown {
+        transition: 1s;
+    }
+    
+    .container {
+        margin-top: 90px;
+        font-size: 100px;
+        color: rgb(54, 54, 54);
+    }
+    .h2 {
+        text-align: center;
+        margin-top: 45px;
+        font-size: 50px;
+        margin-top: -20px;
+    }
+    .sistema1 {
+        font-size: larger; 
+        margin-bottom: 10px;
+    }
+    .sistema2 {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .p {
+        margin: 15px;
+        transition: 1s;
+        color: whitesmoke;
+    }
+    p:hover {
+        cursor: default;
+    }
+    .h22 {
+        color: rgb(151, 3, 3); 
+        font-size: 30px;
+        margin-top: -15px;
+        margin-left: 10px;
+    }
+    .briga {
+        text-decoration: none;
+        color: black;
+        margin-left: 5px;
+    }
+    .problema {
+        margin-left: 100px;
+    }
+
+    .etec {
+        margin-left: -90px;
+    }
+    
+    .conteudo {
+        margin-top: 40px;
+        margin-left: -80px;
+    }
+}
+  
+/* desktop */
+
+@media screen and (min-width: 1024px) {
+
+body {
+    background-image: url(img/etec-peruibe.jpg);
+    background-size: 1220px;
+    background-repeat: no-repeat
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+nav {
+    background-color: grey;
+
+}
+nav li {
+    display: inline-block;
+}
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    transition: 1s;
+    background-color: snow;
+}
+nav li a:hover{
+    background-color: red;
+
+    transition: 1.5s;
+}
+.menu {
+    position: absolute;
+    box-shadow: 0 0 2px;
+    display: none;
+    transition: 1s;
+}
+.menu a{
+    display: block;
+    color: black;
+    transition: 0.5s;
+}
+.menu a:hover{
+    transition: 0.5s;
+    color: white;
+}
+.dropdown:hover .menu {
+    display: block;
+    transition: 1s;
+}
+.dropdown {
+    margin-left: 20px;
+    transition: 1s;
+}
+
+.container {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 100px;
+    color: rgb(54, 54, 54);
+    margin-left: 1180px;
+}
+.h2 {
+    margin-left: 1270px;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 50px;
+    margin-top: -20px;
+}
+.sistema1 {
+    font-size: larger; 
+    margin-left: 1230px;
+}
+.sistema2 {
+    margin-left: 1230px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.p {
+    margin: 15px;
+    transition: 1s;
+    color: whitesmoke;
+}
+p:hover {
+    cursor: default;
+}
+.h22 {
+    color: rgb(151, 3, 3); 
+    margin-left: 1300px;
+    font-size: 30px;
+    margin-top: -15px;
+}
+.briga {
+    margin-left: 1230px; 
+    text-decoration: none;
+    color: black;
+}
+
+
+.etec {
+    margin-top: -60px;
+    margin-bottom: 60px;
+}
+
+}
